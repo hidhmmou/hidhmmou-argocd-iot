@@ -7,7 +7,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: playground
+      app: wil-playground
   template:
     metadata:
       labels:
@@ -27,7 +27,7 @@ metadata:
   namespace: dev
 spec:
   selector:
-    app: playground
+    app: wil-playground
   type: NodePort
   ports:
     - protocol: TCP
